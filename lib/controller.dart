@@ -14,6 +14,7 @@ class _ControllerState extends State<Controller> {
     return Scaffold(
         appBar: AppBar(
           title: Text('Stream builder'),
+          centerTitle: true,
         ),
         body: StreamBuilder<int>(
           initialData: bitcoinPrice,
